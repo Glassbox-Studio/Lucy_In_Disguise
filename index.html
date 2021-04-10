@@ -4,53 +4,32 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
-      crossorigin="anonymous"
-    />
-
-    <link rel="stylesheet" href="css/app.css" />
-    <link rel="stylesheet" href="css/audio.css" />
-    <title>Lucy In Disguise | Home</title>
+    <link rel="stylesheet" href="css/tv.css" />
+    <title>Lucy In Disguise | Void</title>
   </head>
   <body>
-    <div class="video-container">
-      <video
-        class="loop"
-        src="vids/80's comp final.mp4"
-        autoplay="autoplay"
-        loop
-        muted
-      ></video>
-      <video
-        class="logo"
-        id="logo-video"
-        src="vids/Layer 001.mp4"
-        autoplay
-        muted
-      ></video>
-      <audio
-        id="player"
-        src="audio/Lucy In Disguise - Odyssey Point.wav"
-      ></audio>
-      <div class="audio-container">
-        <div class="player">
-          <div class="control">
-            <i class="fas fa-play" id="playbtn"></i>
-          </div>
-          <div class="info">
-            Lucy In Disguise - Odyssey Point
-            <div class="bar">
-              <div id="progress"></div>
-            </div>
-          </div>
-
-          <div id="current">0:00</div>
-        </div>
-      </div>
+    <div class="container">
+      <a href="home.html" class="pagetransition">
+        <video src="vids/TV.mp4" autoplay muted loop playsinline></video>
+      </a>
     </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
     <script src="script/script.js"></script>
+
+    <script>
+      new fullpage("#fullpage", {
+        //options here
+        autoScrolling: true,
+        scrollHorizontally: true,
+      });
+
+      //methods
+      fullpage_api.setAllowScrolling(false);
+    </script>
   </body>
 </html>

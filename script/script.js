@@ -1,8 +1,13 @@
-// var video = document.getElementById("logo-video");
-// video.addEventListener("canplay", function () {
-//   setTimeout(function () {
-//     video.play();
-//   }, 2000);
+// $(".pagetransition").click(function (e) {
+//   e.preventDefault();
+//   var linkUrl = $(this).attr("href");
+//   setTimeout(
+//     function (url) {
+//       window.location = url;
+//     },
+//     3000,
+//     linkUrl
+//   );
 // });
 
 var player = document.getElementById("player");
