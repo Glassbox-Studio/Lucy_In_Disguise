@@ -1,9 +1,9 @@
-var video = document.getElementById("logo-video");
-video.addEventListener("canplay", function () {
-  setTimeout(function () {
-    video.play();
-  }, 2000);
-});
+// var video = document.getElementById("logo-video");
+// video.addEventListener("canplay", function () {
+//   setTimeout(function () {
+//     video.play();
+//   }, 2000);
+// });
 
 var player = document.getElementById("player");
 let progress = document.getElementById("progress");
