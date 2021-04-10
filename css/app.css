@@ -42,3 +42,30 @@ h1 {
   text-align: center;
   color: #eee;
 }
+
+.section2 {
+  background-color: #212121;
+}
+
+.s1 {
+  background-color: #00adb5;
+}
+
+.s2 {
+  background-color: #eeeeee;
+}
+
+.s2 h1 {
+  color: #333;
+}
+
+.fp-controlArrow.fp-prev {
+  left: 50px;
+
+  cursor: pointer;
+}
+.fp-controlArrow.fp-next {
+  right: 50px;
+
+  cursor: pointer;
+}
