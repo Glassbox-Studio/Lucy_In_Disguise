@@ -1,15 +1,3 @@
-// $(".pagetransition").click(function (e) {
-//   e.preventDefault();
-//   var linkUrl = $(this).attr("href");
-//   setTimeout(
-//     function (url) {
-//       window.location = url;
-//     },
-//     3000,
-//     linkUrl
-//   );
-// });
-
 var player = document.getElementById("player");
 let progress = document.getElementById("progress");
 let playbtn = document.getElementById("playbtn");
@@ -53,5 +41,3 @@ function timeFormat(ct) {
 
   return minutes + ":" + seconds;
 }
-
-/* Song Array */

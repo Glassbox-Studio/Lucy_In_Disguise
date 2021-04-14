@@ -17,100 +17,96 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/app.css" />
-    <link rel="stylesheet" href="css/audio.css" />
     <title>Lucy In Disguise | Home</title>
   </head>
   <body>
     <div id="fullpage">
-      <div class="section section1">
-        <div class="video-container">
-          <video
-            class="loop"
-            src="vids/80's comp final.mp4"
-            autoplay="autoplay"
-            loop
-            muted
-            playsinline
-            data-keepplaying
-          ></video>
-          <video
-            class="logo"
-            id="logo-video"
-            src="vids/Logo 2 frame.mp4"
-            autoplay
-            muted
-            playsinline
-            data-keepplaying
-          ></video>
-          <audio
-            id="player"
-            src="audio/Lucy In Disguise - Odyssey Point.wav"
-            data-keepplaying
-          ></audio>
-          <div class="audio-container">
-            <div class="player">
-              <div class="control">
-                <i class="fas fa-play" id="playbtn"></i>
-              </div>
-              <div class="info">
-                Lucy In Disguise - Odyssey Point
-                <div class="bar">
-                  <div id="progress"></div>
-                </div>
-              </div>
+      <div class="section" id="section0">
+        <video id="bg-video" loop muted data-autoplay>
+          <source src="vids/80's comp final.mp4" />
+        </video>
 
-              <div id="current">0:00</div>
-            </div>
-          </div>
-          <div class="social">
-            <a href="https://www.facebook.com/lucyindisguise805" target="_blank"
-              ><i class="fab fa-facebook-square fa-2x"></i
-            ></a>
-            <a
-              href="https://open.spotify.com/artist/1FwlK3oTrK60CBk54koZJg?si=4xX-nDhBRPmqno-QVwieYQ"
-              target="_blank"
-              ><i class="fab fa-spotify fa-2x"></i
-            ></a>
-            <a href="https://www.instagram.com/lucyndisguise/" target="_blank"
-              ><i class="fab fa-instagram fa-2x"></i
-            ></a>
-            <a
-              href="https://twitter.com/lucyindisguise1?lang=en"
-              target="_blank"
-              ><i class="fab fa-twitter fa-2x"></i
-            ></a>
-            <a href="https://soundcloud.com/lucy-in-disguise-1" target="_blank"
-              ><i class="fab fa-soundcloud fa-2x"></i
-            ></a>
-            <a href="https://innerworksrecords.bandcamp.com/" target="_blank"
-              ><i class="fab fa-bandcamp fa-2x"></i
-            ></a>
-          </div>
+        <div class="layer">
+          <video id="logo-video" muted autoplay data-keepplaying>
+            <source src="vids/Logo 2 frame.mp4" />
+          </video>
+        </div>
+
+        <div class="player">
+          <iframe
+            style="border: 0; width: 100%; height: 120px"
+            src="https://bandcamp.com/EmbeddedPlayer/album=3704364236/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true/"
+            seamless
+            ><a href="https://innerworksrecords.bandcamp.com/album/sunset-radio"
+              >Sunset Radio by Lucy In Disguise</a
+            ></iframe
+          >
+        </div>
+
+        <div class="social-layer">
+          <a href="https://www.facebook.com/lucyindisguise805" target="_blank"
+            ><i class="fab fa-facebook-square fa-2x"></i
+          ></a>
+          <a
+            href="https://open.spotify.com/artist/1FwlK3oTrK60CBk54koZJg?si=4xX-nDhBRPmqno-QVwieYQ"
+            target="_blank"
+            ><i class="fab fa-spotify fa-2x"></i
+          ></a>
+          <a href="https://www.instagram.com/lucyndisguise/" target="_blank"
+            ><i class="fab fa-instagram fa-2x"></i
+          ></a>
+          <a href="https://twitter.com/lucyindisguise1?lang=en" target="_blank"
+            ><i class="fab fa-twitter fa-2x"></i
+          ></a>
+          <a href="https://soundcloud.com/lucy-in-disguise-1" target="_blank"
+            ><i class="fab fa-soundcloud fa-2x"></i
+          ></a>
+          <a href="https://innerworksrecords.bandcamp.com/" target="_blank"
+            ><i class="fab fa-bandcamp fa-2x"></i
+          ></a>
         </div>
       </div>
-      <div class="section section2">
-        <div class="slide"><h1>section 2.</h1></div>
-        <div class="slide s1"><h1>slide 1</h1></div>
-        <div class="slide s2"><h1>slide 2</h1></div>
+
+      <div class="section title-card" id="section1">
+        <div class="slide" id="slide1">
+          <div class="top">
+            <p>V</p>
+            <p>8</p>
+            <p>7</p>
+          </div>
+          <p class="title">selected works</p>
+          <h1>.0|1</h1>
+          <div class="line"><hr /></div>
+        </div>
+        <div class="slide"></div>
       </div>
-      <div class="section section3">
-        <h1>Section 3</h1>
+
+      <div class="section title-card" id="section2">
+        <div class="slide">
+          <div class="top">
+            <p>S</p>
+            <p>9</p>
+            <p>0</p>
+          </div>
+          <p class="title">contact</p>
+          <h1>.0|2</h1>
+          <div class="line"><hr /></div>
+        </div>
+        <div class="slide"></div>
       </div>
     </div>
-
-    <script src="script/script.js"></script>
 
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.0/fullpage.min.js"
       integrity="sha512-HqbDsHIJoZ36Csd7NMupWFxC7e7aX2qm213sX+hirN+yEx/eUNlZrTWPs1dUQDEW4fMVkerv1PfMohR1WdFFJQ=="
       crossorigin="anonymous"
     ></script>
-
     <script>
       new fullpage("#fullpage", {
+        verticleCentered: true,
         autoscrolling: true,
-        navigation: true,
-        anchors: ["section1", "section2", "section3"],
+        navigation: false,
+        anchors: ["firstPage", "secondPage", "thirdPage"],
       });
     </script>
   </body>

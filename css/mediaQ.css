@@ -1,0 +1,22 @@
+@media (max-width: 768px) {
+  .video-container .loop {
+    width: 100vw;
+    opacity: 90%;
+  }
+
+  .video-container .logo {
+    position: absolute;
+    width: 100vw;
+    object-fit: contain;
+    opacity: 0.5;
+  }
+
+  .player {
+    bottom: 70px;
+    right: 125px;
+  }
+
+  .social {
+    left: 200px;
+  }
+}
