@@ -92,9 +92,20 @@ hr {
   opacity: 60%;
 }
 
+#tunnel {
+  position: absolute;
+  z-index: -5;
+  width: 100%;
+  height: 100%;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  object-fit: cover;
+}
+
 /* Page Title Cards */
 .title-card {
-  background-color: #111;
+  background-color: #000;
 }
 
 .title-card .line {
