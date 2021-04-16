@@ -21,6 +21,7 @@
   </head>
   <body>
     <div id="fullpage">
+      <!-- Hero Page -->
       <div class="section" id="section0">
         <video id="bg-video" loop muted data-autoplay>
           <source src="vids/80's comp final.mp4" />
@@ -66,7 +67,7 @@
           ></a>
         </div>
       </div>
-
+      <!-- Selected Works -->
       <div class="section title-card" id="section1">
         <div class="slide" id="slide1">
           <div class="top">
@@ -78,10 +79,38 @@
           <h1>.0|1</h1>
           <div class="line"><hr /></div>
         </div>
-        <div class="slide"></div>
+        <div class="slide">
+          <div class="top">
+            <p>S</p>
+            <p>9</p>
+            <p>0</p>
+          </div>
+          <div class="line"><hr /></div>
+        </div>
       </div>
-
+      <!-- About -->
       <div class="section title-card" id="section2">
+        <div class="slide" id="slide1">
+          <div class="top">
+            <p>R</p>
+            <p>8</p>
+            <p>8</p>
+          </div>
+          <p class="title">about</p>
+          <h1>.0|2</h1>
+          <div class="line"><hr /></div>
+        </div>
+        <div class="slide">
+          <div class="top">
+            <p>4</p>
+            <p>2</p>
+            <p>0</p>
+          </div>
+          <div class="line"><hr /></div>
+        </div>
+      </div>
+      <!-- Contact -->
+      <div class="section title-card" id="section3">
         <div class="slide">
           <div class="top">
             <p>S</p>
@@ -89,10 +118,43 @@
             <p>0</p>
           </div>
           <p class="title">contact</p>
-          <h1>.0|2</h1>
+          <h1>.0|3</h1>
           <div class="line"><hr /></div>
         </div>
-        <div class="slide"></div>
+        <div class="slide">
+          <div class="top">
+            <p>V</p>
+            <p>8</p>
+            <p>7</p>
+          </div>
+          <div class="line"><hr /></div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <div class="section fp-auto-height" id="footer">
+        <footer>
+          <a href="https://www.facebook.com/lucyindisguise805" target="_blank"
+            ><i class="fab fa-facebook-square fa-2x"></i
+          ></a>
+          <a
+            href="https://open.spotify.com/artist/1FwlK3oTrK60CBk54koZJg?si=4xX-nDhBRPmqno-QVwieYQ"
+            target="_blank"
+            ><i class="fab fa-spotify fa-2x"></i
+          ></a>
+          <a href="https://www.instagram.com/lucyndisguise/" target="_blank"
+            ><i class="fab fa-instagram fa-2x"></i
+          ></a>
+          <a href="https://twitter.com/lucyindisguise1?lang=en" target="_blank"
+            ><i class="fab fa-twitter fa-2x"></i
+          ></a>
+          <a href="https://soundcloud.com/lucy-in-disguise-1" target="_blank"
+            ><i class="fab fa-soundcloud fa-2x"></i
+          ></a>
+          <a href="https://innerworksrecords.bandcamp.com/" target="_blank"
+            ><i class="fab fa-bandcamp fa-2x"></i
+          ></a>
+        </footer>
       </div>
     </div>
 
@@ -105,8 +167,16 @@
       new fullpage("#fullpage", {
         verticleCentered: true,
         autoscrolling: true,
+        fitToSection: true,
+        scrollBar: false,
         navigation: false,
-        anchors: ["firstPage", "secondPage", "thirdPage"],
+        anchors: [
+          "firstPage",
+          "secondPage",
+          "thirdPage",
+          "fourthPage",
+          "footer",
+        ],
       });
     </script>
   </body>
