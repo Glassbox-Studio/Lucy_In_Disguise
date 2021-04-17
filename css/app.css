@@ -1,10 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap");
 
-:root {
-  --total-arrows: 3;
-  --arrow-line-lenght: 50px;
-  --arrow-line-width: 4px;
+#content-mobile {
+  display: none;
 }
 
 * {
