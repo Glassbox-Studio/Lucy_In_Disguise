@@ -1,6 +1,7 @@
 @media (max-width: 768px) {
   * {
     overflow: scroll;
+    -webkit-overflow-scrolling: touch;
   }
 
   #fullpage {
