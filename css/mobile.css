@@ -13,40 +13,25 @@
     display: block;
     width: 100%;
     height: 100%;
+    background: url("/img/construction.png") center center/cover;
   }
-}
 
-.m-bg {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-}
+  .text {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    color: #eee;
+  }
 
-.m-bg video {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-size: 100% 100%;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  object-fit: cover;
-}
+  .text .bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
 
-.m-bg .p1 {
-  position: absolute;
-  color: #af270c;
-  font-size: 2rem;
-  text-align: center;
-  /* top: 50%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%); */
-}
-.m-bg .p2 {
-  position: absolute;
-  color: #af270c;
-  font-size: 1.5rem;
-  width: 100%;
-  text-align: center;
-  bottom: 0;
-}
+  }
+
+  
