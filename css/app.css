@@ -55,6 +55,10 @@ hr {
   z-index: 3;
 }
 
+.title-overlay {
+  display: inline;
+}
+
 .title-overlay hr {
   position: absolute;
   left: 0;
@@ -64,8 +68,10 @@ hr {
 }
 
 .title-overlay p {
+  display: inline-block;
   position: absolute;
   z-index: 200;
+  width: 50%;
   bottom: 15px;
   left: 0;
   right: 0;
