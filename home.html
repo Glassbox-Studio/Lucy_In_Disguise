@@ -33,6 +33,12 @@
     <div id="fullpage">
       <!-- Hero Page -->
       <div class="section" id="section0">
+        <nav class="main-nav">
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#fourthPage/1">Contact Me</a></li>
+          </ul>
+        </nav>
         <div class="title-overlay">
           <hr class="line" />
           <p>scroll ↓</p>
@@ -159,13 +165,7 @@
           </div>
           <div class="line"><hr /></div>
           <header>Contact Me</header>
-          <form
-            id="form"
-            class="topBefore"
-            action="mailto:Lucyindisguisemusic@gmail.com"
-            method="POST"
-            enctype="text/plain"
-          >
+          <form id="form" class="topBefore" data-netlify="true" method="POST">
             <input
               id="name"
               type="text"
