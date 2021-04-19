@@ -46,6 +46,36 @@ hr {
   overflow: hidden;
 }
 
+/* Loader Page */
+.loader {
+  position: fixed;
+  z-index: 300;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader.hidden {
+  animation: fadeOut 3s;
+  animation-fill-mode: forwards;
+}
+
+.loader video {
+  width: 100%;
+}
+
+@keyframes fadeOut {
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
 /* Hero Page */
 #bg-video {
   position: absolute;

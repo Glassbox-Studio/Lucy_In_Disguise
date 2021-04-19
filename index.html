@@ -4,40 +4,280 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/tv.css" />
-    <title>Lucy In Disguise | Void</title>
+    <meta name="description" content="Official site for Lucy in Disguise" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.0/fullpage.css"
+      integrity="sha512-hGBKkjAVJUXoImyDezOKpzuY4LS1eTvJ4HTC/pbxn47x5zNzGA1vi3vFQhhOehWLTNHdn+2Yqh/IRNPw/8JF/A=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (min-device-width: 769px)"
+      href="css/app.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (max-device-width: 768px)"
+      href="css/mobile.css"
+    />
+    <title>Lucy In Disguise | Home</title>
   </head>
   <body>
-    <div class="container">
-      <a href="home.html" class="pagetransition">
-        <video
-          src="vids/TV.mp4"
-          class="video"
-          autoplay
-          muted
-          loop
-          playsinline
-        ></video>
-      </a>
+    <div class="loader">
+      <video
+        src="vids/TV.mp4"
+        class="video"
+        autoplay
+        muted
+        loop
+        playsinline
+      ></video>
     </div>
 
+    <div id="fullpage">
+      <!-- Hero Page -->
+      <div class="section" id="section0">
+        <nav class="main-nav">
+          <ul>
+            <li><a href="#selectedWorks/1">Works</a></li>
+            <li><a href="#about/1">About</a></li>
+            <li><a href="#contact/1">Contact</a></li>
+            <li><a href="#footer">Follow</a></li>
+          </ul>
+        </nav>
+        <div class="title-overlay">
+          <hr class="line" />
+          <p>scroll ↓</p>
+        </div>
+
+        <video id="bg-video" loop muted data-autoplay>
+          <source src="vids/80's comp final.mp4" />
+        </video>
+
+        <div class="layer">
+          <video id="logo-video" muted autoplay data-keepplaying>
+            <source src="vids/Logo 2 frame.mp4" />
+          </video>
+        </div>
+
+        <div class="player">
+          <iframe
+            style="border: 0; width: 100%; height: 120px"
+            src="https://bandcamp.com/EmbeddedPlayer/album=3704364236/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true/"
+            seamless
+            ><a href="https://innerworksrecords.bandcamp.com/album/sunset-radio"
+              >Sunset Radio by Lucy In Disguise</a
+            ></iframe
+          >
+        </div>
+
+        <div class="social-layer">
+          <a href="https://www.facebook.com/lucyindisguise805" target="_blank"
+            ><i class="fab fa-facebook-square fa-2x"></i
+          ></a>
+          <a
+            href="https://open.spotify.com/artist/1FwlK3oTrK60CBk54koZJg?si=4xX-nDhBRPmqno-QVwieYQ"
+            target="_blank"
+            ><i class="fab fa-spotify fa-2x"></i
+          ></a>
+          <a href="https://www.instagram.com/lucyndisguise/" target="_blank"
+            ><i class="fab fa-instagram fa-2x"></i
+          ></a>
+          <a href="https://twitter.com/lucyindisguise1?lang=en" target="_blank"
+            ><i class="fab fa-twitter fa-2x"></i
+          ></a>
+          <a href="https://soundcloud.com/lucy-in-disguise-1" target="_blank"
+            ><i class="fab fa-soundcloud fa-2x"></i
+          ></a>
+          <a href="https://innerworksrecords.bandcamp.com/" target="_blank"
+            ><i class="fab fa-bandcamp fa-2x"></i
+          ></a>
+          <a
+            href="https://music.apple.com/us/artist/lucy-in-disguise/671766455"
+            target="_blank"
+            ><i class="fab fa-apple fa-2x"></i
+          ></a>
+        </div>
+      </div>
+      <!-- Selected Works -->
+      <div class="section title-card" id="section1">
+        <div class="slide" id="slide1">
+          <video id="tunnel" loop muted data-autoplay>
+            <source src="/vids/Tunnel.mp4" />
+          </video>
+          <div class="top">
+            <p>V</p>
+            <p>8</p>
+            <p>7</p>
+          </div>
+          <p class="title">selected works</p>
+          <h1>.0|1</h1>
+          <div class="line"><hr /></div>
+        </div>
+        <div class="slide">
+          <div class="top">
+            <p>S</p>
+            <p>9</p>
+            <p>0</p>
+          </div>
+          <div class="line"><hr /></div>
+        </div>
+      </div>
+      <!-- About -->
+      <div class="section title-card" id="section2">
+        <div class="slide" id="slide2">
+          <video id="tunnel" loop muted data-autoplay>
+            <source src="/vids/Tunnel.mp4" />
+          </video>
+          <div class="top">
+            <p>R</p>
+            <p>8</p>
+            <p>8</p>
+          </div>
+          <p class="title">about</p>
+          <h1>.0|2</h1>
+          <div class="line"><hr /></div>
+        </div>
+        <div class="slide">
+          <div class="top">
+            <p>4</p>
+            <p>2</p>
+            <p>0</p>
+          </div>
+          <div class="line"><hr /></div>
+          <div class="grid">
+            <div class="item1">
+              <figure>
+                <img src="/img/neon.jpg" alt="" />
+                <figcaption>Neon Rose Festival</figcaption>
+              </figure>
+            </div>
+            <div class="item2">
+              <p>
+                Lucy In Disguise is the project of California born artist Steven
+                Romeo. His music has been described as a "cinematic,
+                unconventional brand of electronica that emulates the
+                atmospheric allure of synth wizards like Tycho and Com Truise".
+                Stay tuned for future releases by the Dream-state-inducing
+                producer.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Contact -->
+      <div class="section title-card" id="section3">
+        <div class="slide" id="slide3">
+          <video id="tunnel" loop muted data-autoplay>
+            <source src="/vids/Tunnel.mp4" />
+          </video>
+          <div class="top">
+            <p>S</p>
+            <p>9</p>
+            <p>0</p>
+          </div>
+          <p class="title">contact</p>
+          <h1>.0|3</h1>
+          <div class="line"><hr /></div>
+        </div>
+        <!-- Form Page -->
+        <div class="slide">
+          <div class="top">
+            <p>V</p>
+            <p>8</p>
+            <p>7</p>
+          </div>
+          <div class="line"><hr /></div>
+          <header>Contact Me</header>
+          <form id="form" class="topBefore" data-netlify="true" method="POST">
+            <input
+              id="name"
+              type="text"
+              name="name"
+              placeholder="NAME"
+              required
+            />
+            <input
+              id="email"
+              type="text"
+              name="email"
+              placeholder="E-MAIL"
+              required
+            />
+            <textarea
+              id="message"
+              type="text"
+              name="message"
+              placeholder="MESSAGE"
+            ></textarea>
+            <input id="submit" type="submit" value="SEND" />
+          </form>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <div class="section fp-auto-height" id="footer">
+        <footer>
+          <a href="https://www.facebook.com/lucyindisguise805" target="_blank"
+            ><i class="fab fa-facebook-square fa-2x"></i
+          ></a>
+          <a
+            href="https://open.spotify.com/artist/1FwlK3oTrK60CBk54koZJg?si=4xX-nDhBRPmqno-QVwieYQ"
+            target="_blank"
+            ><i class="fab fa-spotify fa-2x"></i
+          ></a>
+          <a href="https://www.instagram.com/lucyndisguise/" target="_blank"
+            ><i class="fab fa-instagram fa-2x"></i
+          ></a>
+          <a href="https://twitter.com/lucyindisguise1?lang=en" target="_blank"
+            ><i class="fab fa-twitter fa-2x"></i
+          ></a>
+          <a href="https://soundcloud.com/lucy-in-disguise-1" target="_blank"
+            ><i class="fab fa-soundcloud fa-2x"></i
+          ></a>
+          <a href="https://innerworksrecords.bandcamp.com/" target="_blank"
+            ><i class="fab fa-bandcamp fa-2x"></i
+          ></a>
+          <a
+            href="https://music.apple.com/us/artist/lucy-in-disguise/671766455"
+            target="_blank"
+            ><i class="fab fa-apple fa-2x"></i
+          ></a>
+        </footer>
+      </div>
+    </div>
+
+    <!-- Mobile HTML -->
+    <div id="content-mobile">
+      <div class="text">
+        <p class="top">Mobile Site Under Construction</p>
+        <p class="bottom">Desktop Site Live</p>
+      </div>
+    </div>
+
+    <!-- FULLPAGE.JS Init -->
+    <script src="script/script.js"></script>
     <script
-      src="https://code.jquery.com/jquery-3.6.0.min.js"
-      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.0/fullpage.min.js"
+      integrity="sha512-HqbDsHIJoZ36Csd7NMupWFxC7e7aX2qm213sX+hirN+yEx/eUNlZrTWPs1dUQDEW4fMVkerv1PfMohR1WdFFJQ=="
       crossorigin="anonymous"
     ></script>
-    <script src="script/script.js"></script>
-    <script src="script/typewriter.js"></script>
-
     <script>
       new fullpage("#fullpage", {
-        //options here
-        autoScrolling: true,
-        scrollHorizontally: true,
+        verticleCentered: true,
+        autoscrolling: true,
+        fitToSection: true,
+        scrollBar: false,
+        navigation: false,
+        anchors: ["home", "selectedWorks", "about", "contact", "footer"],
       });
-
-      //methods
-      fullpage_api.setAllowScrolling(false);
     </script>
   </body>
 </html>
