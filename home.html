@@ -35,8 +35,9 @@
       <div class="section" id="section0">
         <nav class="main-nav">
           <ul>
-            <li><a href="#">About</a></li>
-            <li><a href="#fourthPage/1">Contact Me</a></li>
+            <li><a href="#selectedWorks/1">Works</a></li>
+            <li><a href="#about/1">About</a></li>
+            <li><a href="#contact/1">Contact Me</a></li>
           </ul>
         </nav>
         <div class="title-overlay">
@@ -139,6 +140,24 @@
             <p>0</p>
           </div>
           <div class="line"><hr /></div>
+          <div class="grid">
+            <div class="item1">
+              <figure>
+                <img src="/img/neon.jpg" alt="" />
+                <figcaption>Neon Rose Festival</figcaption>
+              </figure>
+            </div>
+            <div class="item2">
+              <p>
+                Lucy In Disguise is the project of California born artist Steven
+                Romeo. His music has been described as a "cinematic,
+                unconventional brand of electronica that emulates the
+                atmospheric allure of synth wizards like Tycho and Com Truise".
+                Stay tuned for future releases by the Dream-state-inducing
+                producer.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
       <!-- Contact -->
@@ -244,13 +263,7 @@
         fitToSection: true,
         scrollBar: false,
         navigation: false,
-        anchors: [
-          "firstPage",
-          "secondPage",
-          "thirdPage",
-          "fourthPage",
-          "footer",
-        ],
+        anchors: ["home", "selectedWorks", "about", "contact", "footer"],
       });
     </script>
   </body>
