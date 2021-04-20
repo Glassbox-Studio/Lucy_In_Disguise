@@ -294,6 +294,10 @@ hr {
   opacity: 1;
 }
 
+.works-content a:hover {
+  text-decoration: underline;
+}
+
 .overlay {
   position: absolute;
   width: 100%;
@@ -305,13 +309,14 @@ hr {
   transition: all 0.2s ease;
 }
 
-.overlay p {
+.overlay a {
   position: absolute;
   font-family: "Lato", sans-serif;
   font-size: 2rem;
   color: #eee;
   width: 100%;
   top: 40%;
+  left: 0;
   text-transform: uppercase;
 }
 
