@@ -4,7 +4,8 @@
     -webkit-overflow-scrolling: touch;
   }
 
-  #fullpage {
+  #fullpage,
+  .loader {
     display: none;
   }
 
