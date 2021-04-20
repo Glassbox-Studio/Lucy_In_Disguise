@@ -278,15 +278,20 @@ hr {
 /* Works Section */
 .grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 500px 500px 500px;
   gap: 1rem;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .works-content {
   position: relative;
   width: 100%;
+  height: auto;
   justify-items: center;
   align-items: center;
+  text-align: center;
 }
 
 .works-content:hover .overlay {
