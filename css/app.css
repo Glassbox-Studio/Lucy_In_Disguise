@@ -61,7 +61,7 @@ hr {
 }
 
 .loader.hidden {
-  animation: fadeOut 3s;
+  animation: fadeOut 2s;
   animation-fill-mode: forwards;
 }
 
@@ -339,7 +339,6 @@ hr {
 .about-content {
   width: 80%;
   margin: 0 auto;
-  background-color: rgba(3, 3, 3, 0.5);
   line-height: 1.4;
 }
 
