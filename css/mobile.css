@@ -1,13 +1,18 @@
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   * {
     overflow: scroll;
     -webkit-overflow-scrolling: touch;
+  }
+
+  #fullpage {
+    display: none;
   }
 
   #fullpage,
   .loader {
     display: none;
   }
+}
 
   #content-mobile {
     position: relative;
