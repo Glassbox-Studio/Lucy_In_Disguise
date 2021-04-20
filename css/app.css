@@ -551,3 +551,17 @@ textarea:hover {
 .section footer a i:hover {
   opacity: 0.9;
 }
+
+footer .webmaster {
+  padding-top: 15px;
+}
+
+footer .webmaster a {
+  color: #333;
+  opacity: 0.7;
+}
+
+footer .webmaster a:hover {
+  color: #333;
+  opacity: 1;
+}
