@@ -737,9 +737,18 @@ footer .webmaster a:hover {
     grid-template-columns: repeat(auto-fit, 150px);
   }
 
+  form {
+    width: 400px;
+    margin: 50px auto 100px auto;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
   #form {
     width: 400px;
     margin: 50px auto 100px auto;
+    left: 50%;
+    transform: translateX(-50%);
   }
 
   input {
