@@ -17,16 +17,7 @@
       integrity="sha512-hGBKkjAVJUXoImyDezOKpzuY4LS1eTvJ4HTC/pbxn47x5zNzGA1vi3vFQhhOehWLTNHdn+2Yqh/IRNPw/8JF/A=="
       crossorigin="anonymous"
     />
-    <link
-      rel="stylesheet"
-      media="screen and (min-device-width: 901px)"
-      href="css/app.css"
-    />
-    <link
-      rel="stylesheet"
-      media="screen and (max-device-width: 900px)"
-      href="css/mobile.css"
-    />
+    <link rel="stylesheet" href="css/app.css" />
     <title>Lucy In Disguise | Home</title>
   </head>
   <body>
@@ -56,7 +47,7 @@
           <hr class="line" />
           <p>scroll ↓</p>
         </div>
-
+        <div class="bg-overlay"></div>
         <video
           id="bg-video"
           title="Lucy in Disguise background video"
@@ -129,9 +120,12 @@
             <p>8</p>
             <p>7</p>
           </div>
-          <p class="title">selected works</p>
-          <h1>.0|1</h1>
-          <div class="line"><hr /></div>
+          <p class="title title-white">selected works</p>
+          <h1 class="title-white">.0|<span>1</span></h1>
+          <div class="card-overlay">
+            <div class="line"><hr /></div>
+            <p>< swipe ></p>
+          </div>
         </div>
         <div class="slide">
           <div class="top">
@@ -139,7 +133,10 @@
             <p>9</p>
             <p>0</p>
           </div>
-          <div class="line"><hr /></div>
+          <div class="card-overlay">
+            <div class="line"><hr /></div>
+            <p>< swipe ></p>
+          </div>
           <div class="grid">
             <div class="works-content album1">
               <img src="/img/sunset.jpg" alt="Sunset Radio Album" />
@@ -217,7 +214,10 @@
           </div>
           <p class="title">about</p>
           <h1>.0|2</h1>
-          <div class="line"><hr /></div>
+          <div class="card-overlay">
+            <div class="line"><hr /></div>
+            <p>< swipe ></p>
+          </div>
         </div>
         <div class="slide">
           <div class="top">
@@ -225,7 +225,10 @@
             <p>2</p>
             <p>0</p>
           </div>
-          <div class="line"><hr /></div>
+          <div class="card-overlay">
+            <div class="line"><hr /></div>
+            <p>< swipe ></p>
+          </div>
           <div class="about-content">
             <p>
               Lucy In Disguise is the project of California born artist Steven
@@ -250,16 +253,22 @@
           </div>
           <p class="title">contact</p>
           <h1>.0|3</h1>
-          <div class="line"><hr /></div>
+          <div class="card-overlay">
+            <div class="line"><hr /></div>
+            <p>< swipe ></p>
+          </div>
         </div>
         <!-- Form Page -->
-        <div class="slide">
+        <div class="slide contact-slide">
           <div class="top">
             <p>V</p>
             <p>8</p>
             <p>7</p>
           </div>
-          <div class="line"><hr /></div>
+          <div class="card-overlay">
+            <div class="line"><hr /></div>
+            <p>< swipe ></p>
+          </div>
           <header>Contact Me</header>
           <form id="form" class="topBefore" data-netlify="true" method="POST">
             <input
@@ -322,14 +331,6 @@
       </div>
     </div>
 
-    <!-- Mobile HTML -->
-    <div id="content-mobile">
-      <div class="text">
-        <p class="top">Mobile Site Under Construction</p>
-        <p class="bottom">Desktop Site Live</p>
-      </div>
-    </div>
-
     <!-- FULLPAGE.JS Init -->
     <script src="script/script.js"></script>
     <script
@@ -345,6 +346,7 @@
         scrollBar: false,
         navigation: false,
         anchors: ["home", "selectedWorks", "about", "contact", "footer"],
+        responsiveWidth: 800,
       });
     </script>
   </body>
