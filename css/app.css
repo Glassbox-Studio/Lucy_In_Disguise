@@ -691,7 +691,7 @@ footer .webmaster a:hover {
     grid-template-columns: repeat(auto-fit, 200px);
   }
 }
-@media (max-width: 376px) {
+@media (max-width: 400px) {
   .about-content {
     max-width: 20ch;
     margin: 0 auto;
