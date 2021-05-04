@@ -678,13 +678,16 @@ footer .webmaster a:hover {
 
   .main-nav {
     position: absolute;
+    width: 50%;
     z-index: 200;
+    top: 0;
+    left: 0;
+    right: 0;
     text-align: center;
-    margin-right: 35px;
   }
 
   .main-nav ul li {
-    padding: 1rem;
+    padding: 0.6rem;
   }
 
   .main-nav ul li a {
