@@ -676,6 +676,12 @@ footer .webmaster a:hover {
     font-size: 1rem;
   }
 
+  .main-nav {
+    position: absolute;
+    z-index: 200;
+    text-align: center;
+  }
+
   .main-nav ul li {
     padding: 1rem;
   }
