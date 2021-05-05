@@ -775,10 +775,6 @@ footer .webmaster a:hover {
     opacity: 0.8;
   }
 
-  .section footer a i:hover {
-    opacity: 0.9;
-  }
-
   footer .webmaster {
     padding-top: 15px;
   }
@@ -790,5 +786,81 @@ footer .webmaster a:hover {
 
   .fp-controlArrow {
     display: none;
+  }
+  .card-overlay p {
+    display: block;
+  }
+}
+
+/* Landscape Mode */
+
+@media (max-width: 850px) and (orientation: landscape) {
+  .player {
+    display: none;
+  }
+
+  .main-nav ul li {
+    padding: 0.4rem;
+  }
+
+  .main-nav ul li a {
+    opacity: 80%;
+  }
+
+  #section0 .social-layer {
+    position: absolute;
+    z-index: 100;
+    padding: 1rem 0;
+  }
+
+  #section0 .social-layer a {
+    padding: 0.5rem;
+    opacity: 80%;
+  }
+
+  .fp-controlArrow {
+    display: none;
+  }
+
+  .grid {
+    grid-template-columns: repeat(auto-fit, 200px);
+  }
+
+  .card-overlay p {
+    display: block;
+    bottom: 0;
+    padding: 0;
+  }
+
+  .card-overlay .line {
+    display: none;
+  }
+
+  .contact-slide header {
+    display: none;
+  }
+
+  form {
+    width: 400px;
+    margin: 50px auto 100px auto;
+    padding-top: 1rem;
+  }
+
+  #form {
+    width: 400px;
+    margin: 50px auto 100px auto;
+  }
+
+  input {
+    width: 300px;
+  }
+
+  textarea {
+    width: 300px;
+    max-width: 300px;
+  }
+
+  #submit {
+    width: 332px;
   }
 }
