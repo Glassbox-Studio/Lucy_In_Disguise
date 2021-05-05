@@ -349,7 +349,6 @@ hr {
 
 /* About Section */
 .about-content {
-  /* width: 80%; */
   max-width: 72ch;
   margin: 0 auto;
   line-height: 1.4;
@@ -791,18 +790,17 @@ footer .webmaster a:hover {
   .card-overlay p {
     display: block;
   }
-}
 
-.card-overlay .line {
-  display: none;
-}
+  .card-overlay .line {
+    display: none;
+  }
 
-.card-overlay p {
-  display: block;
-  bottom: 0;
-  padding: 0;
+  .card-overlay p {
+    display: block;
+    bottom: 0;
+    padding: 0;
+  }
 }
-
 /* Landscape Mode */
 
 @media (max-width: 850px) and (orientation: landscape) {
