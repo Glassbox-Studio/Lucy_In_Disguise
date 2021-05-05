@@ -740,15 +740,12 @@ footer .webmaster a:hover {
   form {
     width: 400px;
     margin: 50px auto 100px auto;
-    left: 50%;
-    transform: translateX(-50%);
+    padding-top: 1rem;
   }
 
   #form {
     width: 400px;
     margin: 50px auto 100px auto;
-    left: 50%;
-    transform: translateX(-50%);
   }
 
   input {
@@ -762,6 +759,10 @@ footer .webmaster a:hover {
 
   #submit {
     width: 332px;
+  }
+
+  .contact-slide header {
+    display: none;
   }
 
   #footer {
@@ -792,6 +793,16 @@ footer .webmaster a:hover {
   }
 }
 
+.card-overlay .line {
+  display: none;
+}
+
+.card-overlay p {
+  display: block;
+  bottom: 0;
+  padding: 0;
+}
+
 /* Landscape Mode */
 
 @media (max-width: 850px) and (orientation: landscape) {
@@ -810,7 +821,7 @@ footer .webmaster a:hover {
   #section0 .social-layer {
     position: absolute;
     z-index: 100;
-    padding: 1rem 0;
+    padding: 1.5rem 0;
   }
 
   #section0 .social-layer a {
