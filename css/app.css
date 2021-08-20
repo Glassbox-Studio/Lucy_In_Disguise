@@ -583,10 +583,14 @@ textarea:hover {
   color: #eee;
   padding: 0 1rem;
   opacity: 0.8;
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  transition: transform ease-in-out 0.2s;
 }
 
 .section footer a i:hover {
   opacity: 0.9;
+  transform: translateY(-5px);
 }
 
 footer .webmaster {
@@ -597,7 +601,7 @@ footer .webmaster {
 }
 
 footer .webmaster:hover {
-  transform: translateY(-10px);
+  transform: translateY(-5px);
 }
 
 footer .webmaster a {
@@ -611,10 +615,6 @@ footer .webmaster a span {
   font-family: "Monoton", cursive;
   font-size: 2rem;
   letter-spacing: 0;
-  color: #cfc33a;
-}
-
-footer .webmaster a:hover span {
   color: #3399cc;
 }
 
@@ -628,6 +628,11 @@ footer .webmaster a:hover span {
 
   .about-content p {
     font-size: 1.5rem;
+  }
+
+  footer .webmaster a span {
+    color: #3399cc;
+    font-size: 2rem;
   }
 }
 
@@ -697,6 +702,11 @@ footer .webmaster a:hover span {
   }
   .grid {
     grid-template-columns: repeat(auto-fit, 200px);
+  }
+
+  footer .webmaster a span {
+    color: #3399cc;
+    font-size: 1.5rem;
   }
 }
 @media (max-width: 500px) {
