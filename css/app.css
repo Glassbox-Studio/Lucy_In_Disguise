@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Monoton&display=swap");
 
 #content-mobile {
   display: none;
@@ -116,6 +117,13 @@ hr {
 
 .main-nav ul li {
   padding: 1rem;
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  transition: transform ease-in-out 0.2s;
+}
+
+.main-nav ul li:hover {
+  transform: translateY(-5px);
 }
 
 .main-nav ul li a {
@@ -125,7 +133,6 @@ hr {
 }
 
 .main-nav ul li a:hover {
-  border-bottom: 2px #eee solid;
   opacity: 1;
 }
 
@@ -189,10 +196,23 @@ hr {
 #section0 .social-layer a {
   padding: 0.8rem;
   opacity: 20%;
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  transition: transform ease-in-out 0.2s;
+}
+
+#section0 .social-layer a i {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  transition: transform ease-in-out 0.2s;
+}
+
+#section0 .social-layer a i:hover {
+  transform: translateY(-10px);
 }
 
 #section0 .social-layer a:hover {
-  opacity: 60%;
+  opacity: 80%;
 }
 
 #tunnel {
@@ -555,12 +575,12 @@ textarea:hover {
 
 /* Footer */
 #footer {
-  background-color: #eee;
+  background-color: #000;
   padding: 1rem;
 }
 
 .section footer a i {
-  color: #111;
+  color: #eee;
   padding: 0 1rem;
   opacity: 0.8;
 }
@@ -570,17 +590,32 @@ textarea:hover {
 }
 
 footer .webmaster {
-  padding-top: 15px;
+  padding-top: 1rem;
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  transition: transform ease-in-out 0.2s;
+}
+
+footer .webmaster:hover {
+  transform: translateY(-10px);
 }
 
 footer .webmaster a {
-  color: #333;
-  opacity: 0.7;
+  font-family: "Monoton", cursive;
+  font-size: 2rem;
+  padding-bottom: 1rem;
+  color: #cfc33a;
 }
 
-footer .webmaster a:hover {
-  color: #333;
-  opacity: 1;
+footer .webmaster a span {
+  font-family: "Monoton", cursive;
+  font-size: 2rem;
+  letter-spacing: 0;
+  color: #cfc33a;
+}
+
+footer .webmaster a:hover span {
+  color: #3399cc;
 }
 
 /* Media Queries */
