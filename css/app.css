@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Monoton&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap');
 
 #content-mobile {
   display: none;
@@ -372,10 +373,13 @@ hr {
   max-width: 72ch;
   margin: 0 auto;
   line-height: 1.4;
+  font-family: 'Roboto', sans-serif;
 }
 
 .about-content p {
-  font-size: 2rem;
+  font-size: 1.8rem;
+  text-align: justify;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* Form */
